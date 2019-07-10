@@ -1,5 +1,5 @@
 #Assignment 1
-#plot 2 no title line graph, Global Active Power (kilowatts) is y axis and Thursday, Friday, Saturday is xaxis
+#plot 3 no title y axis = energy sub metering x axis= days of the week legend with submetering1 = black submetering 2= red submetering3 = blue
 setwd("~/Desktop/Coursera")
 #read in data
 householdpower <- read.table("household_power_consumption.txt",skip=1,sep=";")
